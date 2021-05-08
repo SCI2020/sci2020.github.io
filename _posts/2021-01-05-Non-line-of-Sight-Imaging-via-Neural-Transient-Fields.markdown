@@ -20,7 +20,7 @@ We have obtained NLOS scene information through single-photon NLOS imaging, anal
 <img src="/NeTF_images/2.png" height="100%" width="100%"/>
 </div> -->
 ![b](/NeTF_images/2.png "Single-photon NLOS imaging confocal setting. The laser scanning point and the single photon detector detecting point are at the same position on the wall"){:height="70%" width="70%" align=center}
-<center style="font-size:14px;color:#C0C0C0;text-decoration:underline">Single-photon NLOS imaging confocal setting. The laser scanning point and the single photon detector detecting point are at the same position on the wall</center> 
+<center style="font-size:14px;color:#E0E0E0;text-decoration:underline">Single-photon NLOS imaging confocal setting. The laser scanning point and the single photon detector detecting point are at the same position on the wall</center> 
 
 # New NLOS Imaging Model with NeTF
 We have proposed a new single-photon NLOS imaging forward model, with Neural Transient Field (NeTF) as a new method to solve inverse problem. Inspired by the recent research Neural Radiation Field (NeRF, [Mildenhall 2020ECCV]), based on volume rendering theory, the NLOS scene is expressed as the weight of a fully connected neural network, and transient data is used as input for training and learning. The density distribution of the field of view scene and the reflectivity with the characteristics of the viewing angle can realize 3D reconstruction of the NLOS scene. Different from existing methods, NeTF can continuously represent and perform differentiable calculations, realize NLOS reconstruction at any resolution, and can also deal with self-occlusion and non-uniform reflection phenomena.
