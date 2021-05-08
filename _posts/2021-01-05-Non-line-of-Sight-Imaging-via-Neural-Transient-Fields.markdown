@@ -10,7 +10,7 @@ We present a neural modeling framework for Non-Line-of-Sight (NLOS) imaging. Pre
 # Single Photon Imaging
 Single-photon imaging is different from traditional cameras. Single-photon imaging acquires a single photon reflected from an object and its flight time at the picosecond or femtosecond level to obtain a high-dimensional transient image (transient). As shown in the figure below, a single pixel of this transient image is a histogram, which records the number of photons per picosecond per unit time, rather than the brightness represented by the usual image. Single-photon imaging can collect information that is difficult for the human eye to perceive, such as faint light, distant objects, and non-visual scenes. It is a key technology in remote sensing imaging, robotic vision, biomedical imaging, autonomous driving and other application fields.
 
-![a](/NeTF_images/1.png "Single photon imaging and its application"){:height="70%" width="70%"}
+![a](/NeTF_images/1.png "Single photon imaging and its application"){:height="100%" width="100%"}
 
 # Non-line-of-sight 3D Reconstruction
 We have obtained NLOS scene information through single-photon NLOS imaging, analyzed the relationship between the intensity of the laser light reflected by the surface of the object and returned to the wall and time after diffuse reflection on the intermediate wall, and restored the 3D shape of the NLOS object and surface reflection characteristics, and perform NLOS 3D reconstruction and other scene analysis research. According to whether the laser and the single-photon detector scan the same position on the intermediate wall at the same time, single-photon NLOS imaging adopts two modes of confocal and non-confocal settings. Many existing methods use high-dimensional transient information obtained by single-photon non-view imaging, and treat NLOS three-dimensional reconstruction as an inverse imaging problem, which is approximately solved by deconvolution. Some methods are based on the wave optics or diffraction characteristics of light and avoid solving this inverse imaging problem. These methods have achieved good reconstruction performance, but it is difficult to restore the structural details of NLOS scenes, and non-linear phenomena such as self-occlusion and non-uniform reflection in imaging are not taken into consideration.
@@ -22,13 +22,13 @@ We have proposed a new single-photon NLOS imaging forward model, with Neural Tra
 
 NeTF consists of two parts. Firstly, according to the known illumination point and detection point position on the intermediate wall, sampling is performed in the space represented by the spherical coordinate system, and then the sampling coordinates are converted to the rectangular coordinate system to better describe the geometry and viewing angle characteristics of the object. Secondly, input the sampling points represented by these rectangular coordinate systems into the fully connected neural network and single-photon non-view imaging model, calculate the predicted transient data, and minimize the difference with the measured transient data to optimize the neural network. Obtain the density distribution and reflectivity of the NLOS field scene.
 
-![c](/NeTF_images/3.png "Pipeline of NeTF"){:height="70%" width="70%"}
+![c](/NeTF_images/3.png "Pipeline of NeTF"){:height="100%" width="100%"}
 
 # Two-stage Training and Hierarchical Sampling
 
 We have found that the data is imbalanced in the neural network training process, which leads to poor reconstruction of self-occluded non-view scenes. In response to this phenomenon, we have proposed a two-stage training strategy, that is, the importance of each sample is analyzed from the training results of the first stage, and the transient data is resampled in the second stage to achieve data balance. On this basis, a layered adaptive sampling method is also proposed, which allocates more sampling points to the space with higher probability of NLOS scenes, and improves the sampling efficiency and reconstruction accuracy. The NeTF method is based on deep learning, which can not only obtain better reconstruction effects than existing methods, but also deal with self-occlusion and non-uniform reflections, and realize NLOS 3D reconstruction with any resolution in confocal or non-confocal setting.
 
-![d](/NeTF_images/4.png "Performance of NeTF vs. SOTA methods on syhthetic data and real data"){:height="70%" width="70%"}
+![d](/NeTF_images/4.png "Performance of NeTF vs. SOTA methods on syhthetic data and real data"){:height="100%" width="100%"}
 
 <!-- ![setting](/_posts/image16_setting.png "Magic Gardens") -->
 <!-- ![a](/images/1.png){:height="70%" width="70%"} -->
