@@ -4,6 +4,7 @@ title:  "Non-line-of-Sight Imaging via Neural Transient Fields"
 date:   2021-01-05
 categories: paper
 ---
+
 ## Abstract:
 We present a neural modeling framework for Non-Line-of-Sight (NLOS) imaging. Previous solutions have sought to explicitly recover the 3D geometry (e.g., as point clouds) or voxel density (e.g., within a pre-defined volume) of the hidden scene. In contrast, inspired by the recent Neural Radiance Field (NeRF) approach, we use a multi-layer perceptron (MLP) to represent the neural transient field or NeTF. However, NeTF measures the transient over spherical wavefronts rather than the radiance along lines. We therefore formulate a spherical volume NeTF reconstruction pipeline, applicable to both confocal and non-confocal setups. Compared with NeRF, NeTF samples a much sparser set of viewpoints (scanning spots) and the sampling is highly uneven. We thus introduce a Monte Carlo technique to improve the robustness in the reconstruction. Comprehensive experiments on synthetic and real datasets demonstrate NeTF provides higher quality reconstruction and preserves fine details largely missing in the state-of-the-art.
 
@@ -18,7 +19,7 @@ We have obtained NLOS scene information through single-photon NLOS imaging, anal
 <!-- <div align=center>
 <img src="/NeTF_images/2.png" height="100%" width="100%"/>
 </div> -->
-![b](/NeTF_images/2.png "Single-photon NLOS imaging confocal setting. The laser scanning point and the single photon detector detecting point are at the same position on the wall"){:height="70%" width="70%"}
+![b](/NeTF_images/2.png "Single-photon NLOS imaging confocal setting. The laser scanning point and the single photon detector detecting point are at the same position on the wall"){:height="70%" width="70%" align=center}
 <center style="font-size:14px;color:#C0C0C0;text-decoration:underline">Single-photon NLOS imaging confocal setting. The laser scanning point and the single photon detector detecting point are at the same position on the wall</center> 
 
 # New NLOS Imaging Model with NeTF
