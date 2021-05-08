@@ -20,7 +20,7 @@ We have obtained NLOS scene information through single-photon NLOS imaging, anal
 <!-- <img src="/NeTF_images/2.png" height="100%" width="100%"/>
 </div> -->
 <div align=center>
-![b](/NeTF_images/2.png "Single-photon NLOS imaging confocal setting. The laser scanning point and the single photon detector detecting point are at the same position on the wall"){:height="70%" width="70%"}
+    <img src="/NeTF_images/2.png" height="70%" width="70%"/>
 <div align=center>
 <center style="font-size:14px;color:#B0B0B0;text-decoration:underline">Single-photon NLOS imaging confocal setting. The laser scanning point and the single photon detector detecting point are at the same position on the wall</center> 
 
