@@ -21,7 +21,7 @@ We have obtained NLOS scene information through single-photon NLOS imaging, anal
 </div> -->
 <div align=center>
     <img src="/NeTF_images/2.png" height="70%" width="70%"/>
-<div align=center>
+</div>
 <center style="font-size:14px;color:#B0B0B0;text-decoration:underline">Single-photon NLOS imaging confocal setting. The laser scanning point and the single photon detector detecting point are at the same position on the wall</center> 
 
 # New NLOS Imaging Model with NeTF
