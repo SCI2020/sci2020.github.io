@@ -21,7 +21,7 @@
 title: Single Phtotn Imaging Group
 email: lishy1@shanghaitech.edu.cn; yujingyi@shanghaitech.edu.cn
 description: >- # this means to ignore newlines until "baseurl:"
-ShanghaiTech University, Visual and Data Intelligence Center
+  ShanghaiTech University, Visual and Data Intelligence Center
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "sci2020.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
