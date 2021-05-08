@@ -9,7 +9,7 @@ categories: paper
 We present a neural modeling framework for Non-Line-of-Sight (NLOS) imaging. Previous solutions have sought to explicitly recover the 3D geometry (e.g., as point clouds) or voxel density (e.g., within a pre-defined volume) of the hidden scene. In contrast, inspired by the recent Neural Radiance Field (NeRF) approach, we use a multi-layer perceptron (MLP) to represent the neural transient field or NeTF. However, NeTF measures the transient over spherical wavefronts rather than the radiance along lines. We therefore formulate a spherical volume NeTF reconstruction pipeline, applicable to both confocal and non-confocal setups. Compared with NeRF, NeTF samples a much sparser set of viewpoints (scanning spots) and the sampling is highly uneven. We thus introduce a Monte Carlo technique to improve the robustness in the reconstruction. Comprehensive experiments on synthetic and real datasets demonstrate NeTF provides higher quality reconstruction and preserves fine details largely missing in the state-of-the-art.
 
 # Single Photon Imaging
-Single-photon imaging is different from traditional cameras. Single-photon imaging acquires a single photon reflected from an object and its flight time at the picosecond or femtosecond level to obtain a high-dimensional transient image (transient). As shown in the figure below, a single pixel of this transient image is a histogram, which records the number of photons per picosecond per unit time, rather than the brightness represented by the usual image. Single-photon imaging can collect information that is difficult for the human eye to perceive, such as faint light, distant objects, and non-visual scenes. It is a key technology in remote sensing imaging, robotic vision, biomedical imaging, autonomous driving and other application fields.
+Single-photon imaging is a new imaging technology different from traditional cameras. Single-photon imaging acquires a single photon reflected from an object and its flight time at the picosecond level to obtain a high-dimensional transient image. As shown in the figure below, a single pixel of this transient image is a histogram, which records the number of photons per unit time, rather than the brightness represented by the usual image. Single-photon imaging can collect information that is difficult for the human eye to perceive, such as faint light, distant objects, and non-visual scenes. It is of much importance in remote sensing imaging, robotic vision, biomedical imaging, autonomous driving and other application fields.
 
 ![a](/NeTF_images/1.png "Single photon imaging and its application"){:height="100%" width="100%"}
 <center style="font-size:14px;color:#B0B0B0;text-decoration:underline">Single photon imaging and its application</center> 
@@ -20,9 +20,9 @@ We have obtained NLOS scene information through single-photon NLOS imaging, anal
 
 <!-- <img src="/NeTF_images/2.png" height="100%" width="100%"/>
 </div> -->
-<div align=center>
-    <img src="/NeTF_images/2.png" height="70%" width="70%"/>
-</div>
+<!-- <div align=center> -->
+<img src="/NeTF_images/2.png" height="70%" width="70%"/>
+<!-- </div> -->
 <center style="font-size:14px;color:#B0B0B0;text-decoration:underline">Single-photon NLOS imaging confocal setting. The laser scanning point and the single photon detector detecting point are at the same position on the wall</center> 
 
 # New NLOS Imaging Model with NeTF
