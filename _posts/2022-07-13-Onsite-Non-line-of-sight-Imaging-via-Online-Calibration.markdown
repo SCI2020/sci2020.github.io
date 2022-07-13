@@ -22,14 +22,14 @@ we present an online calibration technique for a SPAD-based NLOS imaging system.
 <!-- <img src="/NeTF_images/2.png" height="100%" width="100%"/>
 </div> -->
 <div align=center>
-<img src="/OIvOC_images/calibrationValidation.pdf" height="70%" width="70%"/>
+<img src="/OIvOC_images/calibrationValidation.pdf"/>
 </div>
 <center style="font-size:14px;color:#B0B0B0;text-decoration:underline">Detection points in different sampling patterns</center>
 
 # NLOS Reconstruction validation
 We validate the transients measured from our NLOS imaging system, which is calibrated with our online calibration technique. Using the measured transients, we reconstruct the hidden objects using SOTA methods, including LCT, FK, PF, and NeTF.
 
-![c](/OIvOC_images/resultsGalleryWithBar.pdf "Reconstruction evaluation using transients measured from our calibrated NLOS imaging system"){:height="100%" width="100%"}
+![c](/OIvOC_images/resultsGalleryWithBar.pdf){:height="100%" width="100%"}
 <center style="font-size:14px;color:#B0B0B0;text-decoration:underline">Reconstruction evaluation using transients measured from our calibrated NLOS imaging system</center>
 
 <!--Check out the [arXiv Page][arXiv] for more information. --> The code is available at [Code Release][code].
