@@ -12,7 +12,7 @@ Besides, we have made our data and code open-source on Github to the research co
 # Non-line-of-sight Imaging
 Non-line-of-sight (NLOS) imaging aims at recovering objects outside the direct line of sight of a sensor Most active NLOS imaging systems exploit an ultra-fast pulsed laser beam that can be controlled to direct light toward a relay surface (e.g., a wall). A companion time-resolved detector then collects the arrival time and number of photons that return after the first and third of three bounces: off the relay surface, off the hidden objects, and back off the relay surface. The first bounce corresponds to direct reflection in the line-of-sight (LOS) scene. By removing or gating the photons from the first bounce, photons from the third bounce are employed to reconstruct or to localize the hidden objects. Potential applications are numerous, including autonomous driving, remote sensing, and biomedical imaging.
 
-![tt](/NeTF_images/1.png "A top-viewed scenario of the NLOS imaging system"){:height="100%" width="100%"}
+![tt](/OIvOC_images/scenarioTop.pdf "A top-viewed scenario of the NLOS imaging system"){:height="100%" width="100%"}
 <center style="font-size:14px;color:#B0B0B0;text-decoration:underline">A top-viewed scenario of the NLOS imaging system</center>
 
 # New Calibration Scheme for Non-line-of-sight Imaging
@@ -21,9 +21,9 @@ we present an online calibration technique for a SPAD-based NLOS imaging system.
 
 <!-- <img src="/NeTF_images/2.png" height="100%" width="100%"/>
 </div> -->
-<div align=center>
-<img src="/NeTF_images/1.png" height="70%" width="70%"/>
-</div>
+<!-- <div align=center> -->
+<img src="/OIvOC_images/calibrationValidation.pdf" height="70%" width="70%"/>
+<!-- </div> -->
 <center style="font-size:14px;color:#B0B0B0;text-decoration:underline">Detection points in different sampling patterns</center>
 
 # NLOS Reconstruction validation
