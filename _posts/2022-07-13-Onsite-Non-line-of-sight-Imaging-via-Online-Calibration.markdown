@@ -22,7 +22,7 @@ we present an online calibration technique for a SPAD-based NLOS imaging system.
 <!-- <img src="/NeTF_images/2.png" height="100%" width="100%"/>
 </div> -->
 <div align=center>
-<img src="/OIvOC_images/calibrationValidation.jpg" height="70%" width="70%"/>
+<img src="/OIvOC_images/calibrationValidation.jpg" height="100%" width="100%"/>
 </div>
 <center style="font-size:14px;color:#B0B0B0;text-decoration:underline">Detection points in different sampling patterns</center>
 
