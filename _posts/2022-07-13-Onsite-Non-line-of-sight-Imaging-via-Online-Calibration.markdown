@@ -32,7 +32,7 @@ We validate the transients measured from our NLOS imaging system, which is calib
 ![cc](/assets/OIvOC_images/resultsGalleryWithBar.jpg "Reconstruction evaluation using transients measured from our calibrated NLOS imaging system"){:height="100%" width="100%"}
 <center style="font-size:14px;color:#B0B0B0;text-decoration:underline">Reconstruction evaluation using transients measured from our calibrated NLOS imaging system</center>
 
-<!--Check out the [arXiv Page][arXiv] for more information. --> The code is available at [Code Release][code].
+<!--Check out the [arXiv Page][arXiv] for more information. --> [The code is available at Code Release][code].
 
 <!-- [arXiv]: https://arxiv.org/abs/2101.00373 -->
 [code]: https://github.com/SCI2020/Inphomatool_public
