@@ -1,3 +1,12 @@
+<script> 
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$']],
+    processEscapes: true
+  }
+};
+</script>
+
 ---
 layout: post
 title:  "HiddenPose: Non-Line-of-Sight 3D Human Pose Estimation"
