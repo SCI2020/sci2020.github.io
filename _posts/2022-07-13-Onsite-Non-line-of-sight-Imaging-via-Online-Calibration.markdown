@@ -1,3 +1,12 @@
+<script> 
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$']],
+    processEscapes: true
+  }
+};
+</script>
+
 ---
 layout: post
 title:  "Onsite Non-line-of-sight Imaging via Online Calibration"
