@@ -32,4 +32,4 @@ We provide a HiddenPose transient dataset for NLOS research on, e.g., NLOS recon
 <!--Check out the [arXiv Page][arXiv] for more information. --> The code is available at [Code Release][code].
 
 <!-- [arXiv]: https://arxiv.org/abs/2101.00373 -->
-[code]: 
+[code]:https://github.com/Hagtaril/HiddenPose
