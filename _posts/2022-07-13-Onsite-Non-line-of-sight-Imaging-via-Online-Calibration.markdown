@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Onsite Non-line-of-sight Imaging via Online Calibration"
+date:   2022-07-13
+categories: paper
+---
+
 <script> 
 MathJax = {
   tex: {
@@ -7,12 +14,6 @@ MathJax = {
 };
 </script>
 
----
-layout: post
-title:  "Onsite Non-line-of-sight Imaging via Online Calibration"
-date:   2022-07-13
-categories: paper
----
 
 ## Abstract:
 There has been increasing interest in deploying non-line-of-sight (NLOS) imaging systems for recovering objects hidden behind corners. Existing solutions need to calibrate the imaging system using auxiliary apparatus and additional detectors. We present an online calibration technique that directly decouples the transients, which are acquired by onsite scanning on a relay surface, into line-of-sight (LOS) and hidden components. We use the former to directly (re-)calibrate the system upon changes of scene--surface configurations, scannable regions, and sampling patterns, and the latter for hidden object recovery via spatial-, frequency-, or learning-based techniques. We also calculate a *Gamma* map from the LOS component to preview calibration effects for accurate transient measurements. Our technique avoids using auxiliary calibration tools such as mirrors or checkerboards and supports both uniform and non-uniform sampling in our onsite NLOS imaging system. Comprehensive experiments via calibration evaluation and NLOS reconstruction demonstrate the efficiency and effectiveness of our solution.
