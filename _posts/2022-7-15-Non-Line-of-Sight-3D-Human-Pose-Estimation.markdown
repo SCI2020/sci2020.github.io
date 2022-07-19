@@ -11,16 +11,18 @@ Nearly all existing human pose estimation techniques address the problem under t
 # Non-line-of-sight Imaging
 
 
-<!-- ![tt](/assets/OIvOC_images/scenarioTop.jpg "A top-viewed scenario of the NLOS imaging system"){:height="100%" width="100%"}
-<center style="font-size:14px;color:#B0B0B0;text-decoration:underline">A top-viewed scenario of the NLOS imaging system</center> -->
+![tt](/assets/Hidden_images/scenev4.jpg "A top-viewed scenario of the NLOS imaging system"){:height="100%" width="100%"}
+<center style="font-size:14px;color:#B0B0B0;text-decoration:underline">A typical scenario of NLOS imaging under the confocal setup. </center>
 
 # HiddenPose Estimator
 We propose a HiddenPose estimator to predict 3D joints of a hidden human pose. The key ideas of our estimator are to transform the transients $\tau \in \mathbb{R}^{M \times N \times T}$ into 3D spatial features $I_d \in \mathbb{R}^{M \times N \times L}$ and to generate complete 3D features of the hidden human pose. $M \times N$ represents the spatial resolution, $T$ the time bins, and $L$ the distance between the hidden pose and the relay wall. Specifically, we consider that noise in the transients is irrelevant to the human body and apply a shallow 3D CNN-based FrontNet to extract local spatial-temporal features $I_c$ from the input transients $\tau$. $I_c$ preserves intrinsic spatial-temporal features of the transients while suppressing the noise. We then apply the LCT method to transform $I_c$ into 3D spatial features $I_d$, which contain the shape and albedo of the front surface but lack information about inner and back surface of the human body.
 
 We then tailor a CNN-based network guided by semantic information, i.e., SemanticNet, to refine the 3D features that represent the possibility of the 3D volume of the human body. 
 
-Following the architecture of 3D ResNet , we implement a RegressionNet using CNN-based residual connections as the backbone to encode the voxel-wise features $I_{h}$. The decoder consists of four-layer 3D deconvolution to output a 3D likelihood heatmap for each joint of the human pose. Using these 3D heatmaps, we estimate the positions of human joints. 
+Following the architecture of 3D ResNet , we implement a RegressionNet using CNN-based residual connections as the backbone to encode the voxel-wise features $I_{h}$. The decoder consists of four-layer 3D deconvolution to output a 3D likelihood heatmap for each joint of the human pose. Using these 3D heatmaps, we estimate the positions of human joints.
 
+![c](/assets/Hidden_images/pp.png "Pipeline of HiddenPose estimator"){:height="100%" width="100%"}
+<center style="font-size:14px;color:#B0B0B0;text-decoration:underline">Pipeline of HiddenPose estimator</center> 
 # HiddenPose Transient Dataset
 We provide a HiddenPose transient dataset for NLOS research on, e.g., NLOS reconstruction, human pose estimation, and activity recognition. Our dataset contains synthetic transients of more than 40k single-shot human poses, which are rendered using our synthesis scheme, and real-world transients of six single-shot human poses captured from our NLOS imaging system.
 
