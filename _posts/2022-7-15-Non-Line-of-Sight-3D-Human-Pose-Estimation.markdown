@@ -28,8 +28,7 @@ We provide a HiddenPose transient dataset for NLOS research on, e.g., NLOS recon
 
 <!-- ![cc](/assets/OIvOC_images/resultsGalleryWithBar.jpg "Reconstruction evaluation using transients measured from our calibrated NLOS imaging system"){:height="100%" width="100%"}
 <center style="font-size:14px;color:#B0B0B0;text-decoration:underline">Reconstruction evaluation using transients measured from our calibrated NLOS imaging system</center> -->
-
-<!--Check out the [arXiv Page][arXiv] for more information. --> The code is available at [Code Release][code].
+The code is available at [Code Release][code].
 
 <!-- [arXiv]: https://arxiv.org/abs/2101.00373 -->
-[code]:https://github.com/Hagtaril/HiddenPose
+[code]: https://github.com/Hagtaril/HiddenPose
