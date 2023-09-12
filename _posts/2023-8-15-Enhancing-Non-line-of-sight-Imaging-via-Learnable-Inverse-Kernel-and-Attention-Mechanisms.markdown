@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Enhancing Non-line-of-sight Imaging via Learnable Inverse Kernel and Attention Mechanisms"
+title:  "[ICCV 2023] Enhancing Non-line-of-sight Imaging via Learnable Inverse Kernel and Attention Mechanisms"
 date:   2023-08-15
 categories: paper
 ---

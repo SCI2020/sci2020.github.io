@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "HiddenPose: Non-Line-of-Sight 3D Human Pose Estimation"
+title:  "[ICCP 2022] HiddenPose: Non-Line-of-Sight 3D Human Pose Estimation"
 date:   2022-07-13
 categories: paper
 ---
