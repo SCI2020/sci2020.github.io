@@ -38,7 +38,7 @@ Overview of our framework. In the top row we illustrate our framework. Our frame
 
 <!-- ![cc](/assets/OIvOC_images/resultsGalleryWithBar.jpg "Reconstruction evaluation using transients measured from our calibrated NLOS imaging system"){:height="100%" width="100%"}
 <center style="font-size:14px;color:#B0B0B0;text-decoration:underline">Reconstruction evaluation using transients measured from our calibrated NLOS imaging system</center> -->
-The code is available at [Code Release][code].
+The code and dataset is available at [Code Release][code].
 
 <!-- [arXiv]: https://arxiv.org/abs/2101.00373 -->
 [code]: https://github.com/SHTCyuyh/Nlos_Learnable_Inverse_Kernel/tree/main
