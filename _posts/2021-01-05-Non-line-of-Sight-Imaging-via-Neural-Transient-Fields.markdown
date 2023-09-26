@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Non-line-of-Sight Imaging via Neural Transient Fields"
+title:  "[TPAMI 2021] Non-line-of-Sight Imaging via Neural Transient Fields"
 date:   2021-01-05
 categories: paper
 ---
